@@ -1,0 +1,4 @@
+name: newpro
+version: '${version}'
+main: plugin.newpro.Newpro
+api-version: '1.20'
