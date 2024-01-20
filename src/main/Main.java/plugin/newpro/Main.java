@@ -43,6 +43,7 @@ public class Main extends JavaPlugin implements Listener {
             FireworkEffect.builder()
                 .withColor(Color.BLUE)
                 .withColor(Color.RED)
+                .withColor(Color.AQUA)
                 .withColor(Color.YELLOW)
                 .with(Type.STAR)
                 .withFlicker()
