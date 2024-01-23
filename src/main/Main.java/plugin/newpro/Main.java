@@ -1,5 +1,7 @@
 package plugin.newpro;
 
+import static org.bukkit.Color.BLACK;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Color;
 import org.bukkit.FireworkEffect;
@@ -43,6 +45,7 @@ public class Main extends JavaPlugin implements Listener {
             FireworkEffect.builder()
                 .withColor(Color.BLUE)
                 .withColor(Color.RED)
+                .withColor(BLACK)
                 .withColor(Color.AQUA)
                 .withColor(Color.YELLOW)
                 .with(Type.STAR)
